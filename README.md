@@ -1,14 +1,12 @@
-# Jony
+# Flat
 A skin for MediaWiki, inspired by the user interface of modern versions of iOS.
 
-This skin has only been tested on MediaWiki 1.28.x branch. This skin may work with other versions, but compatibility is not ensured.
-
 ## Installation
-To install this theme, copy the "Jony" directory into your MediaWiki installation's "skins" directory.
+To install this theme, copy the "Flat" directory into your MediaWiki installation's "skins" directory.
 
 The following line must be also be added to your LocalSettings.php:
 ```php
-    wfLoadSkin( "Jony" );
+    wfLoadSkin( "Flat" );
 ```
 
 ## Variables
