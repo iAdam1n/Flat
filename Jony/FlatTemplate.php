@@ -4,7 +4,7 @@
  *
  * @ingroup Skins
  */
-class JonyTemplate extends BaseTemplate {
+class FlatTemplate extends BaseTemplate {
 	/**
 	 * Outputs the entire contents of the page
 	 */

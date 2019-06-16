@@ -1,12 +1,12 @@
 <?php
 /**
- * SkinTemplate class for the Jony skin
+ * SkinTemplate class for the Flat skin
  *
  * @ingroup Skins
  */
-class SkinJony extends SkinTemplate {
-	public $skinname = 'jony', $stylename = 'Jony',
-		$template = 'JonyTemplate', $useHeadElement = true;
+class SkinFlat extends SkinTemplate {
+	public $skinname = 'Flat', $stylename = 'Flat',
+		$template = 'FlatTemplate', $useHeadElement = true;
 
 	/**
 	 * Add CSS via ResourceLoader
@@ -18,10 +18,10 @@ class SkinJony extends SkinTemplate {
 		$out->addModuleStyles( array(
 			'mediawiki.skinning.interface',
 			'mediawiki.skinning.content.externallinks',
-			'skins.jony'
+			'skins.Flat'
 		) );
 /*		$out->addModules( array(
-			'skins.jony.js'
+			'skins.Flat.js'
 		) );*/
 	}
 
