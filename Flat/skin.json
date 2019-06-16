@@ -1,29 +1,29 @@
 {
-	"name": "Jony",
+	"name": "Flat",
 	"author": [
 		"Dialexio",
 		"iAdam1n",
 		"..."
 	],
-	"version": "1.0.7",
-	"url": "https://github.com/Dialexio/Jony",
-	"descriptionmsg": "jony-skin-desc",
-	"namemsg": "skinname-jony",
+	"version": "1.0",
+	"url": "https://github.com/iAdam1n/Flat",
+	"descriptionmsg": "Flat-skin-desc",
+	"namemsg": "skinname-Flat",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.26.0"
 	},
 	"ValidSkinNames": {
-		"jony": "Jony"
+		"Flat": "Flat"
 	},
 	"MessagesDirs": {
-		"Jony": [
+		"Flat": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"skins.jony": {
+		"skins.Flat": {
 			"position" : "top",
 			"styles": {
 				"resources/print.less": {
@@ -37,11 +37,11 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Jony"
+		"remoteSkinPath": "Flat"
 	},
 	"AutoloadClasses": {
-		"SkinJony": "Jony.skin.php",
-		"JonyTemplate": "JonyTemplate.php"
+		"SkinFlat": "Flat.skin.php",
+		"FlatTemplate": "FlatTemplate.php"
 	},
 	"manifest_version": 1
 }

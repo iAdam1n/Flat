@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Skins
- * @author Dialexio (https://github.com/Dialexio), iAdam1n (https://github.com/iAdam1n) and others
+ * @author Dialexio (https://github.com/Dialexio), iAdam1n (https://github.com/iAdam1n, and others
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License 2.0
  */
 
@@ -23,7 +23,7 @@ else {
 		'namemsg' => 'skinname-Flat',
 		'version' => '1.0',
 		'url' => 'https://github.com/iAdam1n/Flat',
-		'author' => '[https://github.com/Dialexio Dialexio], [https://github.com/iAdam1n iAdam1n] and others',
+		'author' => '[https://github.com/Dialexio Dialexio], [https://github.com/iAdam1n iAdam1n], and others',
 		'descriptionmsg' => 'Flat-desc',
 		'license-name' => 'GPL-2.0+',
 	);
