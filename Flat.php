@@ -28,14 +28,14 @@ else {
 		'license-name' => 'GPL-2.0+',
 	);
 
-	$wgValidSkinNames['Flat'] = 'Flat';
+	$wgValidSkinNames['flat'] = 'Flat';
 	$wgAutoloadClasses['SkinFlat'] = __DIR__ . '/Flat.skin.php';
 	$wgMessagesDirs['Flat'] = __DIR__ . '/i18n';
 
-	$wgResourceModules['skins.Flat'] = array(
+	$wgResourceModules['skins.flat'] = array(
 		'styles' => array(
-			'Flat/resources/print.less' => array( 'media' => 'print' ),
-			'Flat/resources/screen.less' => array( 'media' => 'screen' ),
+			'resources/print.less' => array( 'media' => 'print' ),
+			'resources/screen.less' => array( 'media' => 'screen' ),
 		),
 		'remoteBasePath' => &$GLOBALS['wgStylePath'],
 		'localBasePath' => &$GLOBALS['wgStyleDirectory'],
@@ -43,10 +43,10 @@ else {
 
 	/*
 	//Only add a module for 'scripts' if your skin actually needs custom JavaScript
-	$wgResourceModules['skins.Flat.js'] = array(
+	$wgResourceModules['skins.flat.js'] = array(
 		'scripts' => array(
-			'Flat/resources/cool.js',
-			'Flat/resources/awesome.js',
+			'resources/cool.js',
+			'resources/awesome.js',
 		),
 		'dependencies' => array(
 			// In this example, awesome.js needs the jQuery UI dialog stuff

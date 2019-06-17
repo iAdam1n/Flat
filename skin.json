@@ -15,7 +15,7 @@
 		"MediaWiki": ">= 1.26.0"
 	},
 	"ValidSkinNames": {
-		"Flat": "Flat"
+		"flat": "Flat"
 	},
 	"MessagesDirs": {
 		"Flat": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"ResourceModules": {
-		"skins.Flat": {
+		"skins.flat": {
 			"position" : "top",
 			"styles": {
 				"resources/print.less": {

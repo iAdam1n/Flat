@@ -5,7 +5,7 @@
  * @ingroup Skins
  */
 class SkinFlat extends SkinTemplate {
-	public $skinname = 'Flat', $stylename = 'Flat',
+	public $skinname = 'flat', $stylename = 'Flat',
 		$template = 'FlatTemplate', $useHeadElement = true;
 
 	/**
@@ -18,10 +18,10 @@ class SkinFlat extends SkinTemplate {
 		$out->addModuleStyles( array(
 			'mediawiki.skinning.interface',
 			'mediawiki.skinning.content.externallinks',
-			'skins.Flat'
+			'skins.flat'
 		) );
 /*		$out->addModules( array(
-			'skins.Flat.js'
+			'skins.flat.js'
 		) );*/
 	}
 
