@@ -19,12 +19,12 @@ else {
 
 	$wgExtensionCredits['skin'][] = array(
 		'path' => __FILE__,
-		'name' => 'Flat', // name as shown under [[Special:Version]]
-		'namemsg' => 'skinname-Flat',
+		'name' => 'Flat',
+		'namemsg' => 'skinname-flat',
 		'version' => '1.0',
 		'url' => 'https://github.com/iAdam1n/Flat',
 		'author' => '[https://github.com/Dialexio Dialexio], [https://github.com/iAdam1n iAdam1n], and others',
-		'descriptionmsg' => 'Flat-desc',
+		'descriptionmsg' => 'flat-skin-desc',
 		'license-name' => 'GPL-2.0+',
 	);
 
