@@ -1,6 +1,6 @@
 <?php
 /**
- * BaseTemplate class for the Jony skin
+ * BaseTemplate class for the Flat skin
  *
  * @ingroup Skins
  */

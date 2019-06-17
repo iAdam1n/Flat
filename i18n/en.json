@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": [ "@Dialexio, @iAdam1n, and others" ]
 	},
-	"skinname-jony": "Flat",
-	"jony-skin-desc": "A MediaWiki skin based on the UI of recent versions of iOS."
+	"skinname-flat": "Flat",
+	"flat-skin-desc": "A MediaWiki skin based on the UI of recent versions of iOS."
 }

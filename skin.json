@@ -1,5 +1,7 @@
 {
 	"name": "Flat",
+	"namemsg": "skinname-flat",
+	"type": "skin",
 	"author": [
 		"Dialexio",
 		"iAdam1n",
@@ -7,10 +9,8 @@
 	],
 	"version": "1.0",
 	"url": "https://github.com/iAdam1n/Flat",
-	"descriptionmsg": "Flat-skin-desc",
-	"namemsg": "skinname-Flat",
+	"descriptionmsg": "flat-skin-desc",
 	"license-name": "GPL-2.0+",
-	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.26.0"
 	},
